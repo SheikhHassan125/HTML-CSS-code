@@ -1,0 +1,25 @@
+.box{
+    width: 150px;
+    height: 150px;
+border: 2px solid rgb(0, 0, 0);
+}
+#box1{
+    position: relative;
+    top: 40px;
+    background-color: red;
+    z-index: -15;
+
+}
+#box2{
+    background-color: yellow;
+    position: relative;
+    top: -10px;
+    z-index: -10;
+}
+#box3{
+    /* visibility: hidden; is used to hide only figure not a space  */
+    background-color: green;
+}
+#box4{
+    background-color: blue;
+}

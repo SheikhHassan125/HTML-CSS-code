@@ -1,0 +1,62 @@
+.container{
+    height: 500px;
+    width: 100%;
+    border: 2px solid black;
+    /* initiliza the container as flexbox */
+    display: flex;
+    /* properties  for a flex container and direction default is(Row) of flexbox */
+    /* flex-direction: row; */
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+
+
+      /* flex wrap for wrap your items  */
+     /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+
+     /* short cut for adjust wrap and direction  */
+     /* flex-flow: wrap column; */
+     /* flex-flow: wrap-reverse; */
+    /* flex-flow: row-reverse wrap; */
+
+     /* justify-content: for alighn your items */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly;  */
+
+    /* flex-wrap: wrap; */
+    /* align-items: center; */
+    /* align-items: flex-end; */
+    /* align-items: flex-start; */
+    /* align-items: stretch;  */
+}
+.item{
+    background-color: turquoise;
+    margin: 5px;
+    padding: 8px;
+    width: 100px;
+    height: 100px;
+}
+#item1{
+    /* flex properties for a flex item  */
+    /* higher the order later it show up in the later  */
+    /* order: 1; */
+    /* flex-grow: 2;
+    flex-shrink: 4; */
+
+    /* when flext direction is set to row it grows the widht  */
+    /* when flext direction is set to column it grows the height  */
+    /* flex-basis: 150px; */
+}
+#item2{
+    /* flex-grow: 3; */
+    /* short cut to control flex(grow ,shrink and basis) */
+    /* flex: 2 2 150px; */
+     
+    /* alighn self is used to adjust item in start center and end */
+      /* align-self: flex-end; */
+     /* align-self: center; */
+     /* align-self: flex-start;  */
+}

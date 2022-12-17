@@ -1,0 +1,24 @@
+h1{
+    background-color: red;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: bold;
+}
+/* IF p is contained by any li which is contained by div  */
+/* div li p{
+    background-color: green;
+    color:rgb(255, 255, 255);
+} */
+
+/* if p is right inside div then this css in applied  */
+/* div > p{
+    background-color: green;
+    color:rgb(255, 255, 255);
+} */
+
+/* If  p is right afte div this is applied on p */
+/* div + p{
+    background-color: green;
+    color:rgb(255, 255, 255);
+} */
+

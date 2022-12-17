@@ -1,0 +1,60 @@
+.container {
+    background-color: yellow;
+}
+
+.box {
+    background-color: blue;
+    height: 250px;
+    width: 250px;
+    position: relative;
+    /* animation-name: hassan1; */
+     /* animation-name: hassan2; 
+    animation-duration: 5s;
+    animation-iteration-count: 1s;  */
+    /* animation-fill-mode: forwards; */
+    /* animation-fill-mode: alternate; */
+    /* animation-timing-function: ease-in; */
+    /* animation-timing-function: ease; */
+    /* animation-delay: 2s; */
+    /* animation-direction: reverse; *
+
+
+    /* These properties can be set using this shorthand */
+    /* animation: animation-name , animation-duration, animation-timing-funtion, animation-delay, animation-iteration-count, animation-fill-mode */
+    /* animation: hassan2 5s ease 2s 2 reverse; */
+    
+}
+
+@keyframes hassan2 {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+
+    25% {
+        top: 200px;
+        left: 0px;
+    }
+
+    75% {
+        top: 200px;
+        left: 200px;
+    }
+
+    100% {
+        top: 0px;
+        left: 200px;
+    }
+
+}
+
+@keyframes hassan1 {
+    from {
+        width: 200px;
+    }
+
+    to {
+        width: 1000px;
+    }
+
+}

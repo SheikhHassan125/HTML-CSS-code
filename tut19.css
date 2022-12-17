@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #a7b3ff;
+}
+.container{
+    background-color: rgb(139, 139, 248);
+    border: 3px solid rgb(247, 69, 98);
+      /* we can set margin/padding by top bottom left right ny this 
+     padding-top: 20px;
+    padding-bottom: 20px; 
+     padding-right: 20px; 
+     padding-left: 20px;  */
+      
+    /* margin-top: 15px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    margin-left: 14px; */
+
+     /* margin/padding =top right bottom left by doing this  */
+     /* padding:23px 54px 29px 55px; */
+     /* margin:12px 15px 15px 25px */
+
+     /* padding= y(top/bottom)x(right/left) */
+     padding: 50px 25px; 
+    margin: 20px 505px;
+    border-radius: 15px;
+    width: 500px;
+    box-sizing: border-box;
+    
+}

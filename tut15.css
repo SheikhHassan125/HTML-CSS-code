@@ -1,0 +1,9 @@
+p{
+    color: red;
+    font-style: italic;
+    border: 2px green;
+    background-color: lightcoral;
+}
+.bgred{
+    background-color: #414272;
+}

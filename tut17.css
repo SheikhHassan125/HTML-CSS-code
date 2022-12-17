@@ -1,0 +1,10 @@
+#firstpara{
+    color: yellow;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#secondpara{
+    color: rgb(23, 62, 170);
+}
+#thirdpara{
+    background-color: #dd4141;
+}

@@ -1,0 +1,28 @@
+#firstpara{
+    background-color: blue;
+    height: 50px;
+    width: 250px;
+    border: 5px solid rgb(171, 218, 84);
+    border-radius: 10px; 
+}
+#secondpara{
+    background-color: rgb(177, 231, 49);
+    height: 50px;
+    width: 250px;
+    border-top: 5px solid rgb(51, 139, 51);
+    border-left: 5px solid rgb(36, 36, 145);
+    border-right: 5px solid rgb(187, 38, 38);
+    border-bottom: 5px solid rgb(184, 67, 86);
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#hassan{
+    height: 500px;
+    width: 450px;
+    border: 5px solid rgb(69, 25, 231);
+    background-image: url('images.jpg');
+    background-repeat: no-repeat;
+    background-position: 50px;
+}

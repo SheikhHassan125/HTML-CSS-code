@@ -1,0 +1,32 @@
+/* CSS positons: static (default), absolute,relative,fixed,sticky */
+.box{
+    border: 2px solid red;
+    width: 150px;
+    height: 150px;
+    margin: 2px;
+    display: inline-block;
+}
+#box3{
+    /* relative : relatives to its normal position and will leave a gap at its normal position
+    position: relative; */
+
+    /* absolute : relatives to the  position of its first parent*/
+    /* position: absolute; */
+    /* top: 34px;
+    left: 150px; */
+     
+    /* fixed: relative is used when it will move when you scrool
+    position:fixed ;
+     right: 4px;
+     bottom: 2px; */
+    
+      /* sticky: relative is used when you use menue stick when you scrool
+     position: sticky;
+     top: 2px; */
+
+}
+.container{
+    border: 2px solid black;
+    background-color: salmon;
+    height: 4000px;
+}

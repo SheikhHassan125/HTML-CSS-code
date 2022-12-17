@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+
+}
+.card{
+    margin: 15px;
+    padding: 15px;
+    /* border: 2px solid red; */
+    background-color: aqua;
+    text-align: center;
+
+    /* box shadow: offset-x offset-y, blur-radious, spread-radius, color  */
+
+    /* box-shadow: 9px 5px red; */
+    /* box-shadow: 9px 5px 10px blue */
+    /* box-shadow: -9px -5px 10px blueviolet; */
+    /* box-shadow: 9px 5px 10px 5px rgba(154, 20, 187, 0.5); */
+    box-shadow: 9px 5px red, 10px 6px blue;
+}
+h2{
+    text-shadow: 2px 3px 6px blue;
+    text-shadow: -2px -3px 6px blue;
+}

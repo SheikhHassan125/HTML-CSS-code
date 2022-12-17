@@ -1,0 +1,20 @@
+/* class selector */
+.black{
+    color: red;
+}
+/* id selector */
+#red{
+    color: green;
+}
+/* element selector */
+p{
+    color: purple;
+}
+h2{
+    color: blue;
+    background-color: grey;
+}
+/* grouping selector */
+span, footer{
+    background-color: pink;
+}

@@ -1,0 +1,28 @@
+.container{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-areas: 
+    'navbar navbar navbar navbar'
+    'section section section aside'
+    'section2 section2 section2 section2'
+    'footer footer footer footer';
+}
+.item{
+    background-color: pink;
+    border: 3px solid black;
+}
+#navbar{
+    grid-area: navbar;
+}
+#section{
+    grid-area: section ;
+}
+#aside{
+    grid-area: aside;
+}
+#section2{
+    grid-area: section2;
+}
+footer{
+grid-area: footer;
+}
